@@ -18,8 +18,8 @@ To create clean Users, delete the Users.json and UsersData.json files. Admin wit
 
 # The Data
 
-StudentID = 10 Digits
-CourseID = 3 Alphabets + 3 Digits
+StudentID = 10 Digits,
+CourseID = 3 Alphabets + 3 Digits,
 DateID = DDMMYYYY
 
 This makes a Composite Primary Key of = StudentID | CourseID | DateID
@@ -31,7 +31,7 @@ The data is stored as a Sparce Matrix with only Absent records, as in any ideal 
 
 A/D + ID
 
-A = Add
+A = Add,
 D = Delete
 
 ID will be accoring to the datatypes and will be auto-detected
@@ -40,14 +40,14 @@ ID will be accoring to the datatypes and will be auto-detected
 
 PRA/EXP + ID(s) + COUNT + P/A
 
-PRA = Print to Terminal
+PRA = Print to Terminal,
 EXP = Export to Txt File
 
 ID will be at least one of a single type, different types can be given with a space. Only 1 of each type is allowed at max
 
 COUNT is a fixed keyword
 
-P = Present
+P = Present,
 A = Absent
 
 # Safety (Hashing + Encryption)
