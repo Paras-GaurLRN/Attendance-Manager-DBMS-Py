@@ -1,0 +1,8 @@
+--- QUERY EXECUTION RESULTS ---
+Filters Applied -> Date: ALL, Course: MTH202, Student: ALL
+Targeting: ABSENT
+Matching Records Found: 3
+------------------------------
+Date: 10022026 | Course: MTH202 | Student: 2222222222 | Status: A
+Date: 11022026 | Course: MTH202 | Student: 3333333333 | Status: A
+Date: 12022026 | Course: MTH202 | Student: 3333333333 | Status: A
